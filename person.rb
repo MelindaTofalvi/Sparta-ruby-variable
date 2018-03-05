@@ -7,18 +7,28 @@ class Person
 
     def age
         # create age variable here
+        age = 23
 
     end
 
     def children
         # create children array here
-
+        children = ["Matt", "Kate", "Selene", "Claire"]
 
     end
 
     def address
 
         # create address hash here
+        address = {
+            :house_number => 23,
+            :street => "Worton Road",
+            :town => "Isleworth",
+            :county => "Middlesex",
+            :postcode => "TW7 6XG",
+            :country => "UK",
+            :email_addresses => ["melitofalvi@gmail.com", "info@gmail.com"]
+        }
 
     end
 
@@ -31,7 +41,7 @@ class Person
           mothers_name: "Eve",
           birth_town: "Richmond"
         }
-
+        password = "#{favourite_things[1]} #{memorable_stuff[:birth_town]}"
     end
 
 end
